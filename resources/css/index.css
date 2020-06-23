@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/25/17/55/color-2174045_1280.png); 
+    background-size: cover;
+    height: auto; 
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+	background-size: 400% 400%;
+    animation: gradient 4s ease infinite; */
+    font-family: 'Montserrat', sans-serif; 
+    overflow: scroll;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+footer{
+    margin-top: 1%;
+    text-align: center;
+    width:100%;
+    display:inline-block;
+    color: blanchedalmond;
+    border: 1px solid darkslategrey;
+}
+
+.heading{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    color: blanchedalmond;
+
+}
+.split_1, .split_2, .split_3, .split_4{
+    margin-top: 6%;
+    border-radius: 20px;
+    height:250px;
+    width:32.33%;
+    margin-left: 1%; 
+    float:left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.split_4{
+    margin-top:1% ;
+    margin-left:34.33%;
+    background-color: rgb(172, 172, 172);
+    background-blend-mode: overlay;
+}
+.split_4 img {
+margin-top: 5%;
+margin-left: 28%;
+image-rendering: crisp-edges;
+
+}
+.split_1, .split_3{
+    border: 1px solid darkslategray;
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5);
+	background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+}
+.split_2{
+    padding-top: 1%;
+    border: 1px solid darkslategray;
+    background-color: wheat;
+    opacity: 0.81;
+}
+.inner_split{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+button{
+    padding:1em 1.2em;
+    border-radius:3em;
+    font-family:sans-serif;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    margin-left:10px ;
+    display: inline-block;
+    }
+
+ul li {
+    float:left;
+}
+
+
+table {
+border-radius: 15px;
+text-align: center;
+opacity: 0.9;
+
+}
+
+th, td {
+    height:60px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+#congrats_text {
+    text-align: center;
+}

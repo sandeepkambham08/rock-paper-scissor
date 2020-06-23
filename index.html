@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Rock paper scissors Game</title>
+
+</header>
+
+<body>
+    <div class="bg-image"></div>
+    <script type="text/javascript" src="resources/scripts/rockPaperScissors.js"></script>
+    <link href="resources/css/index.css" type="text/css" rel="stylesheet">
+<div class="heading">
+    <h1>Welcome to the play area!</h1>
+    <p> Get ready to play with the system </p>
+</div>
+<div class = "split_1">
+    <div class="inner_split">
+        <button type="button" onclick="determineWinner('rock')">Rock!</button>
+        <button type="button" onclick="determineWinner('paper')">Paper!</button> 
+        <button type="button" onclick="determineWinner('scissors')">Scissors!</button>
+        <br>
+        <br>
+        <button style="margin-left: 21%;" type="button" onclick="reset()">Reset Game </button>
+    </div>
+    
+</div>
+
+<div class="split_2">
+    <p>You have selected : </p><p id="user_ans"></p>
+    <p>Computer choice was : </p><p id="comp_ans"></p></li>
+    <span style="font-weight:bold"><p>Winner for this turn is :</p><p id="result"></p></span>
+
+</div>
+<div class="split_3">
+    <table style="width:100%">
+        <br>
+        <caption> Results </caption>
+        <tr>
+          <th>User points </th>
+          <th>Computer points</th>
+        </tr>
+        <tr>
+          <td><p id="user_points"></p></td>
+          <td><p id="comp_points"></p></td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;"> Final Winner</td>
+            <td><p id ="final_winner"></p></td>
+        </tr>
+    </table> 
+</div>
+
+<div style="visibility:hidden" id="hide_split_4">
+    <div class="split_4">
+            <p id="congrats_text"></p>
+            <img id ="congrats" width="150px" height="150px" src="">
+    </div>
+</div>
+
+<footer>
+    <p1>Developed by Sandeep ©</p1>
+</footer>
+</body>
+
+
+</html>
