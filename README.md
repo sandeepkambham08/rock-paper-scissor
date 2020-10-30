@@ -1,7 +1,7 @@
 # Rock paper scissors game 
 This is a simple game which is developed using only basic javascript, HTML and CSS
 
-![Alt text](./resources/images/Rock_paper_scissors_1.jpg?raw=true "Rock_paper_scissors_1")
+![Alt text](./resources/images/Rock_paper_scissors_1.png?raw=true "Rock_paper_scissors_1")
 ![Alt text](./resources/images/Rock_paper_scissors_2.jpg?raw=true "Rock_paper_scissors_2")
 
 ## Experiences gained by developing this project 
